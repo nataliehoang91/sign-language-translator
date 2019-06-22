@@ -18,50 +18,56 @@ class Navigation extends Component {
   }
 
   render() {
-   
-
     return (
-      <div
-        id="navbartoggle"
-        className={this.state.scroll > 600 ? "is-black nav-bg" : "nav-bg"}
-      >
-        <div class=" d-flex justify-content-between py-2">
-          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 ">
-            <a href="/">
-              <img
-                class="mainlogo img-responsive"
-                src="img/logomaverickwhite.png"
-                alt="logo"
-              />
-            </a>
+      <div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#">
+            {" "}
+            <img
+              class="mainlogo img-responsive"
+              src="img/logomaverickwhite.png"
+              alt="logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon" />
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">
+                  HOME <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">
+                  FEATURES
+                </a>
+              </li>
+          
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                >
+                 PRICING
+                </a>
+              </li>
+            </ul>
+           
           </div>
-          <div className="menu">
-            <a href="/">
-              <button
-                class="btn btn-become-tutor my-2 my-sm-0"
-                
-              >
-                Home
-              </button>
-            </a>
-            <a href="/">
-              <button
-                class="btn btn-become-tutor my-2 my-sm-0"
-                
-              >
-                Tutorials
-              </button>
-            </a>
-            <a href="/">
-              <button
-                class="btn btn-become-tutor my-2 my-sm-0"
-                
-              >
-                Pricing
-              </button>
-            </a>
-          </div>
-        </div>
+        </nav>
       </div>
     );
   }
