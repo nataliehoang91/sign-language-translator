@@ -2,6 +2,8 @@ import React from "react";
 import "./App.css";
 import Navigation from "./components/Navigation";
 import Title from "./components/Description";
+import PoweredByAmplify from "./components/PoweredByAmplify";
+
 import Auth from "@aws-amplify/auth";
 import Analytics from "@aws-amplify/analytics";
 import awsconfig from "./aws-exports";
@@ -22,6 +24,7 @@ class App extends React.Component {
       <div className="container">
         <Navigation />
         <Title />
+        <PoweredByAmplify />
       </div>
     );
   }
