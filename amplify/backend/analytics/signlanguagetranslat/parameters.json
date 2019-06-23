@@ -1,0 +1,20 @@
+{
+    "appName": "signlanguagetranslat",
+    "roleName": "pinpointLambdaRole4f8289da",
+    "cloudWatchPolicyName": "cloudWatchPolicy4f8289da",
+    "pinpointPolicyName": "pinpointPolicy4f8289da",
+    "authPolicyName": "pinpoint_amplify_4f8289da",
+    "unauthPolicyName": "pinpoint_amplify_4f8289da",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

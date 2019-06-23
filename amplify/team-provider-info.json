@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "signlanguagetranslat-dev-20190623084638-authRole",
+            "UnauthRoleArn": "arn:aws:iam::507343937734:role/signlanguagetranslat-dev-20190623084638-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::507343937734:role/signlanguagetranslat-dev-20190623084638-authRole",
+            "Region": "ap-southeast-1",
+            "DeploymentBucketName": "signlanguagetranslat-dev-20190623084638-deployment",
+            "UnauthRoleName": "signlanguagetranslat-dev-20190623084638-unauthRole",
+            "StackName": "signlanguagetranslat-dev-20190623084638",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:507343937734:stack/signlanguagetranslat-dev-20190623084638/be14b6c0-9558-11e9-9107-0a6ebb72ceae"
+        },
+        "categories": {
+            "auth": {
+                "cognito347c65c4": {}
+            }
+        }
+    }
+}

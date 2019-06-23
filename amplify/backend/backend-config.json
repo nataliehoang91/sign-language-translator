@@ -1,0 +1,14 @@
+{
+	"auth": {
+		"cognito347c65c4": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"analytics": {
+		"signlanguagetranslat": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
