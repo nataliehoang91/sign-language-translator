@@ -1,22 +1,6 @@
 import React, { Component } from "react";
 
 class Navigation extends Component {
-  constructor() {
-    super();
-
-    this.state = {};
-
-    this.handleScroll = this.handleScroll.bind(this);
-  }
-
-  handleScroll = () => {
-    this.setState({ scroll: window.scrollY });
-  };
-
-  componentDidMount() {
-    window.addEventListener("scroll", this.handleScroll);
-  }
-
   render() {
     return (
       <div>
@@ -53,7 +37,7 @@ class Navigation extends Component {
                   FEATURES
                 </a>
               </li>
-          
+
               <li class="nav-item">
                 <a
                   class="nav-link text-white"
@@ -61,11 +45,10 @@ class Navigation extends Component {
                   tabindex="-1"
                   aria-disabled="true"
                 >
-                 PRICING
+                  PRICING
                 </a>
               </li>
             </ul>
-           
           </div>
         </nav>
       </div>
