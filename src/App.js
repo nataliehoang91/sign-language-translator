@@ -5,6 +5,7 @@ import Title from "./components/Description";
 import Auth from "@aws-amplify/auth";
 import Analytics from "@aws-amplify/analytics";
 import awsconfig from "./aws-exports";
+import { withAuthenticator } from "aws-amplify-react"; // or 'aws-amplify-react-native';
 
 Auth.configure(awsconfig);
 Analytics.configure(awsconfig);
@@ -26,4 +27,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default withAuthenticator(App, {});
