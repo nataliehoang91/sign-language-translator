@@ -11,12 +11,14 @@ class Title extends Component {
           <video
             width="640"
             height="480"
-            src="./IMG_1869.TRIM.MOV"
+            controls
+            playsinline
             autoplay
             muted
-            controls
             loop
-          />
+          >
+            <source src="video.mp4" type="video/mp4" />
+          </video>
         </div>
       </div>
     );
