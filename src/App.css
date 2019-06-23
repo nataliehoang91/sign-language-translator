@@ -1,27 +1,27 @@
 img.bg {
-    min-height: 100%;
-    min-width: 1024px;
-    width: 100%;
-    height: auto;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .nav-bg {
-  background-color:#1a080800;
+  background-color: #1a080800;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 99;
   width: 100%;
-  transition: background-color .3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .is-black {
- background-color:rgba(0, 0, 0, 0.835);
+  background-color: rgba(0, 0, 0, 0.835);
 
   position: fixed;
   top: 0;
@@ -29,71 +29,68 @@ img.bg {
   right: 0;
   z-index: 10;
   width: 100%;
-  transition: background-color .3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 
-.mainlogo{
-  height:100px;
-
+.mainlogo {
+  height: 100px;
 }
 .img-responsive-a {
- border: 1px solid #ddd;
- margin: auto auto 15px;
- height: 180px;
- width: 300px;
- object-fit: cover;
+  border: 1px solid #ddd;
+  margin: auto auto 15px;
+  height: 180px;
+  width: 300px;
+  object-fit: cover;
 }
 
-.menu button{
-  color:white;
+.menu button {
+  color: white;
 }
 
-.border-text{
- border-style: dotted;
+.border-text {
+  border-style: dotted;
   border-width: 2px;
-  height:200px;
-  width:100%;
-border-color:rgba(255, 255, 255, 0.664);
-text-align: left;
-background-color: rgba(255, 255, 255, 0.5);
-
-
+  height: 200px;
+  width: 100%;
+  border-color: rgba(255, 255, 255, 0.664);
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 .down-arrow {
-	border-color:rgba(255, 255, 255, 0.363) transparent;
-	border-style: dotted;
-	border-width: 20px 20px 0px 20px;
-	height: 0px;
+  border-color: rgba(255, 255, 255, 0.363) transparent;
+  border-style: dotted;
+  border-width: 20px 20px 0px 20px;
+  height: 0px;
   width: 0px;
-  
+
   float: right;
-  
- 
 }
 
-.wrapper{
-  padding-top:100px;
+.wrapper {
+  padding-top: 100px;
   float: right;
-  width:100%; 
-
-
-}
-
-.border-webcam{
-border-style: solid;
-  border-width: 2px;
-  height:400px;
   width: 100%;
-  
-border-color:white;
-background-color:black;
-
-
-
 }
-.wrapper-cam{
 
+.border-webcam {
+  border-style: solid;
+  border-width: 2px;
+  height: 400px;
+  width: 100%;
+
+  border-color: white;
+  background-color: black;
+}
+.wrapper-cam {
   float: right;
-width:100%; 
-width: 500px;
+  width: 100%;
+  width: 500px;
+}
+
+.awslogo {
+  transform: scale(0.4);
+}
+
+.footer-bg {
+  background-color: rgba(255, 255, 255, 0.418);
 }
